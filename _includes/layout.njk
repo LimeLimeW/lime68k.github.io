@@ -8,15 +8,19 @@
     <body>
         {{ comp.navbar() | safe }}
 
-        <main>
-        <div class="box warn">
-            <strong>Warning</strong>: Website still in construction zzz
+        <div class="col-4">
+            <main>
+                <div class="box warn">
+                    <strong>Warning</strong>: Website still in construction zzz
         </div>
-            {{ content | safe }}
-        </main>
+                {{ content | safe }}
+            </main>
+        </div>
+        </div>
     </body>
     <style>
         a {
             color: white;
-            }
-    </html>
+        }
+    </style>
+</html>
