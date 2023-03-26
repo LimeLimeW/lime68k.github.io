@@ -6,12 +6,8 @@
         <title>{{ title }}</title>
     </head>
     <body>
-        
-        {{ comp.navbar() | safe }}
 
-        <div class="box warn">
-            <strong>Warning</strong>: Website still in construction zzz
-        </div>
+        {{ comp.navbar() | safe }}
         <main>
             <header>
                 <article>
@@ -22,7 +18,6 @@
                     <p></p>
                 </article>
             </header>
-
             <p>{{ content | safe }}</p>
 
         </main>
