@@ -6,9 +6,6 @@ export default function ({ search }: PageData) {
   const posts = search.pages("type=post");
 
   return `
-    <div class="box warn">
-      <strong>Warning</strong>: Website still in construction zzz
-    </div>
     <h2>Posts</h2>
     <ul>
       ${posts
