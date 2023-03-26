@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://unpkg.com/missing.css@1.0.9/dist/missing.min.css">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        {{ comp.navbar() | safe }}
+        <main>
+            <header>
+                <article>
+                    <h1>{{ title }}</h1>
+                    {% for tag in tags %}
+                        <chip>#{{ tag }}</chip>
+                    {% endfor %}
+                    <p></p>
+                </article>
+            </header>
+
+            <p>{{ content | safe }}</p>
+
+        </main>
+    </body>
+    <style>
+        a {
+            color: white;
+        }
+    </style>
+</html>
