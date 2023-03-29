@@ -4,7 +4,6 @@ import base_path from "lume/plugins/base_path.ts";
 import code_highlight from "lume/plugins/code_highlight.ts";
 import date from "lume/plugins/date.ts";
 import imagick from "lume/plugins/imagick.ts";
-
 const site = lume();
 
 site.use(attributes());
