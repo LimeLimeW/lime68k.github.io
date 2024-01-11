@@ -9,10 +9,11 @@ type: page
 
 ## Future shows & events
 
-- 19/05/2023 - VJ Set for Canblaster @ [Stunfest 2023](http://stunfest.com/), Rennes (FR)
+
 
 ## Past shows & events
 
+- 19/05/2023 - VJ Set for Canblaster @ [Stunfest 2023](http://stunfest.com/), Rennes (FR)
 - 30/03/2023 - Strudel workshop & livecoding show @ Stéréolux, Nantes (FR)
 - 10/09/2022 - VJ sets with Dewno @ 8-Bit Breakdown, Koblenz (DE)
 - 21/05/2022 - VJ set for Astro The Fox @ Stunfest, Rennes (FR)
